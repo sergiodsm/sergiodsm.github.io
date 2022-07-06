@@ -1,0 +1,1 @@
+convert file.jpg -resize 5% out.jpg

@@ -1,10 +1,544 @@
-<html>
-	<head>
-		</head>
-		<body>
-			<h1>
-sergio repo test!
-			</h1>
-		</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./img/logo3_icon.ico">
+    <title> sergiodsm | Portfolio </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="./carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+      
+    <!-- HEADER STARTS HERE   -->
+      <header>
+          <nav id="header" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+              <div class="container container-fluid">
 
+                <!-- LOGO  -->
+                    <a class="navbar-brand text-warning" href="#">
+                      <img src="./img/logo1.png" alt="logo">
+                    </a>
+
+                    
+                    <!-- RESPONSIVE BUTTON HERE  -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <!-- LINK TO NAVIGATE PAGE -->
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav ms-auto mb-2 mb-md-0 mb-lg-0">
+                            <li class="nav-item"> <a class="nav-link active" aria-current="speakers" href="#https://github.com/sdsanchezm/python-apps">Projects</a> </li>
+                            <li class="nav-item"> <a class="nav-link active" aria-current="speakers" href="#languages">Languages</a> </li> <!-- the attributes in the body tag are required-->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Repositories
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="https://github.com/sdsanchezm">Main Repo List</a></li>
+                                  <li><a class="dropdown-item" href="https://github.com/sdsanchezm/javascript-all">Javascript</a></li>
+                                  <li><a class="dropdown-item" href="https://github.com/sdsanchezm/typescript-all">TypeScript</a></li>
+                                  <li><a class="dropdown-item" href="https://github.com/sdsanchezm/react-all">React</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="https://github.com/sdsanchezm/python-apps">Python</a></li>
+                                </ul>
+                              </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </header>
+
+        <!-- HEADER ENDS HERE  -->
+        
+
+<!-- main tag here -->
+<main>
+
+
+    <!-- START CAROUSEL  -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+
+            <!-- FIRST CAROUSEL ITEM  -->
+          <div class="carousel-item active">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+            <img class="bd-placeholder-img d-block w-100" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" src="./img/k1_2.jpg" alt="first"/>
+
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Backend Development.</h1>
+                <p>RESTful API rapid Development - Make your information securely available using Open Source technologies.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Explore</a></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- SECOND ITEM CAROUSEL  -->
+          <div class="carousel-item">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+            <img class="bd-placeholder-img d-block w-100" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" src="./img/k2_2.jpg" class="d-block w-100" alt="second"/>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Front-End Development</h1>
+                <p>User Interfaces - Easy access - Easy Exploration using best open source technologies.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Explore</a></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- THIRD CAROUSEL ITEM  -->
+          <div class="carousel-item">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+            <img class="bd-placeholder-img d-block w-100" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" src="./img/k4_2.jpg" class="d-block w-100" alt="third"/>
+            <div class="container">
+              <!-- <div class="carousel-caption text-end"> -->
+              <div class="carousel-caption text-start">
+                <h1>Cloud Deployment.</h1>
+                <p>Available everywhere around the world.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Explore</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        
+      </div>
+
+      <!-- END CAROUSEL  -->
+
+
+    <div id="Projects" class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Projects</h2>
+    
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3">
+
+          <div class="col">
+            <a href="https://github.com/sdsanchezm/javascript-all/tree/master/knex2">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-2 shadow-lg" style="background-image: url('./img/p1.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">NodeJS RESTful API - ExpressJS - KnexJS</h2>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <img src="./img/logo3.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                      <small>Click to go</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                      <small>-</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </a>
+          </div>
+    
+          <div class="col">
+            <a href="https://github.com/sdsanchezm/javascript-all/tree/master/firebase-nodejs-crud">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-2 shadow-lg" style="background-image: url('./img/p2.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">firebase NodeJS Crud</h2>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <img src="./img/logo3.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                      <small>Click</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                      <small>-</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </a>
+          </div>
+    
+          <div class="col">
+            <a href="https://github.com/sdsanchezm/javascript-all/tree/master/js-learning-platzi/backendExpressJS">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-2 shadow-lg" style="background-image: url('./img/p4.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">RESTful API - NodeJS</h2>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <img src="./img/logo3.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                      <small>Click</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                      <small>-</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3">
+
+            <div class="col">
+              <a href="https://github.com/sdsanchezm/javascript-all/tree/master/API_js_working_1">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-2 shadow-lg" style="background-image: url('./img/p6.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Basic API - NodeJS - ExpressJS</h2>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="./img/logo3.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                        <small>Click</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                        <small>-</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </div>
+      
+            <div class="col">
+              <a href="https://github.com/sdsanchezm/react-all/tree/main/TodoApp">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-2 shadow-lg" style="background-image: url('./img/p10.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">ReactJS - ToDo WebApp Application</h2>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="./img/logo3.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                        <small>Click</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                        <small>-</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </div>
+      
+            <div class="col">
+              <a href="https://github.com/sdsanchezm/react-all/tree/main/photo_album_course1">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-2 shadow-lg" style="background-image: url('./img/p9.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">ReactJS - PhotoAlbum</h2>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="./img/logo3.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                        <small>Click</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                        <small>-</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+
+            <div class="col">
+              <a href="https://github.com/sdsanchezm/python-apps/tree/main/TkinterGuiCrud1">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-2 shadow-lg" style="background-image: url('./img/p9.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Python - CRUD GUI - Tkinter</h2>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="./img/logo3.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                        <small>Click</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                        <small>-</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col">
+              <a href="https://github.com/sdsanchezm/python-all/tree/master/contactBook">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-2 shadow-lg" style="background-image: url('./img/p9.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Python - CLI - Contact Book - CSV</h2>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="./img/logo3.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                        <small>Click</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                        <small>-</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+
+  
+          </div>
+
+
+      </div>
+
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <!-- <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2 class="fw-normal">Heading</h2>
+        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <!-- <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2 class="fw-normal">Heading</h2>
+        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <!-- <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2 class="fw-normal">Heading</h2>
+        <p>And lastly this, the third column of representative placeholder content.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      <!-- </div><!-- /.col-lg-4 -->
+    <!-- </div>/.row --> 
+
+
+    <!-- START THE FEATURETTES -->
+<!-- 
+    <hr class="featurette-divider">
+
+    <div class="row featurette bg-dark">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div> -->
+
+    <!-- <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div> -->
+    
+    <h2 class="pb-2 border-bottom">Languages and Frameworks</h2>
+    <div class="accordion mt-4" id="accordionPanelsStayOpenExample">
+        
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              Backend Languages
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <!-- <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+            <ul>
+                <li>NodeJs - <strong>Javascript</strong> </li>
+                <li>Flask - <strong>Python</strong> </li>
+                <li>Springboot - <strong>Java</strong> </li>
+            </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              Front-End
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <!-- <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+            <ul>
+                <li>ReactJS - <strong>Javascript (Jsx)</strong></li>
+                <li>ReactJS - <strong>TypeScript (Tsx)</strong></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                Algorithms
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <!-- <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+            <ul>
+                <li>Merge Sort</li>
+                <li>Bubble Sort</li>
+                <li>Binary Search</li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- Content using container-fluid-->
+  <!-- <section id="place-time">
+    <div class="container-fluid">
+      <div class="row">
+            <div class="col-12 col-lg-6 pt-0 pe-0 ps-0">
+            <img src="./img/k3_2.jpg">
+            </div>
+
+            <div class="col pt-4 col-12 col-lg-6 pe-4 ps-4 pb-4 pt-4 align-self-center">
+            <h2>Berlin - Dezember 2025</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar lorem vehicula libero pulvinar, nec dictum ante eleifend. Phasellus porta leo libero, nec porta enim eleifend sed. Mauris nisl ex, varius eu urna sed, vehicula ultrices erat. Fusce quis semper tellus, ut tristique eros. Vivamus id magna ac tellus gravida egestas fermentum at turpis. Nulla ac posuere eros. Etiam mattis facilisis pellentesque. Ut vestibulum, odio ac sollicitudin varius, sapien felis lacinia odio, hendrerit vulputate ligula magna sit amet quam. Maecenas commodo elementum est eget rhoncus. Maecenas aliquet luctus urna sed bibendum. Phasellus maximus quis enim vel maximus. Maecenas placerat iaculis urna id placerat. Quisque et neque magn.</p>
+            <a href="#" class="btn btn-outline-dark">Click me</a>
+            </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- /Content using container-fluid -->
+
+
+    <!-- Content using container-fluid-->
+<!-- <section id="place-time">
+    <div class="container-fluid">
+      <div class="row">
+            <div class="col pt-4 col-12 col-lg-6 pe-4 ps-4 pb-4 pt-4 align-self-center">
+                <h2>Berlin - Dezember 2025</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar lorem vehicula libero pulvinar, nec dictum ante eleifend. Phasellus porta leo libero, nec porta enim eleifend sed. Mauris nisl ex, varius eu urna sed, vehicula ultrices erat. Fusce quis semper tellus, ut tristique eros. Vivamus id magna ac tellus gravida egestas fermentum at turpis. Nulla ac posuere eros. Etiam mattis facilisis pellentesque. Ut vestibulum, odio ac sollicitudin varius, sapien felis lacinia odio, hendrerit vulputate ligula magna sit amet quam. Maecenas commodo elementum est eget rhoncus. Maecenas aliquet luctus urna sed bibendum. Phasellus maximus quis enim vel maximus. Maecenas placerat iaculis urna id placerat. Quisque et neque magn.</p>
+                <a href="#" class="btn btn-outline-dark">Click me</a>
+            </div>
+
+            <!-- <div class="col-12 col-lg-6 pt-0 pe-0 ps-0">
+            <img src="./img/k4_2.jpg">
+            </div> -->
+<!-- 
+        </div>
+    </div>
+  </section> -->
+  <!-- /Content using container-fluid --> 
+ 
+
+  
+      <!-- Content using container-fluid-->
+<section id="place-time2">
+    <div class="container">
+      <div class="row">
+            <div class="col pt-4 col-12 col-lg pe-4 ps-4 pb-4 pt-4">
+                <h2>Sergio Sanchez - Software - Dev</h2>
+                    <p></p>
+                <a href="#" class="btn btn-outline-dark">Click me</a>
+            </div>
+
+            <!-- <div class="col-12 col-lg-6 pt-0 pe-0 ps-0">
+            <img src="./img/k4_2.jpg">
+            </div> -->
+      </div>
+    </div>
+  </section>
+  <!-- /Content using container-fluid -->
+
+    <!-- FOOTER STARS here!  -->
+    <footer id="footer" class="pb-4 pt-4 bg-dark">
+        <div class="container">
+          <div class="row text-center">
+  
+              <div class="col-12 col-lg"><a href="#">About</a></div>
+              <div class="col-12 col-lg"><a href="#">Repo</a></div>
+              <!-- <div class="col-12 col-lg"><a href="#">Languages</a></div> -->
+              <!-- <div class="col-12 col-lg"><a href="#">Projects</a></div> -->
+              <!-- <div class="col-12 col-lg"><a href="#">Snippets</a></div> -->
+              <!-- <div class="col-12 col-lg"><a href="#">Contact</a></div> -->
+
+          </div>
+        </div>
+    </footer>
+</main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
 </html>
